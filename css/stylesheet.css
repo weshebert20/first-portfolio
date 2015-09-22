@@ -8,16 +8,26 @@ body {
 	width: 100%;
 }
 .top-navigation > .content {
-	height: 3.5rem;
+	height: 2.5rem;
 	text-align: center;
+	border-bottom: 2px #585858;
 }
 .top-navigation .top-links {
 	float: none;
 	color: #585858;
 	font-size: 1rem;
-	margin: 1rem;
 }
 li {
 	display: inline-block;
-	margin: 1rem;
+	font-weight: 300;
+	margin-right: 2rem;
+	margin-top: 2px;
+}
+.dunes {
+	background-image: url(../images/nick.jpg);
+	background-size: cover;
+	height: 45rem;
+	background-repeat: no-repeat;
+	overflow: auto;
+	background-position: center bottom;
 }
