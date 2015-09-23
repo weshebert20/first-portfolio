@@ -31,3 +31,16 @@ li {
 	overflow: auto;
 	background-position: center bottom;
 }
+.quotes ul {
+	list-style: none;
+	text-align: center;
+}
+.quotes li {
+	display: inline-block;
+	float: none;
+}
+h1 {
+	font-weight: 400;
+	padding: 4rem;
+	margin: 0;
+}
