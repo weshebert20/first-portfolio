@@ -54,6 +54,12 @@ h1 {
 	 margin: 0;
 	 padding: 0;
 }
+.footer-social {
+	background: #585858;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: auto;
+}
 
 
 
