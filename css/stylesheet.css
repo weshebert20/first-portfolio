@@ -17,7 +17,7 @@ body {
 	color: #585858;
 	font-size: 1rem;
 }
-li {
+.top-links li {
 	display: inline-block;
 	font-weight: 300;
 	margin-right: 2rem;
@@ -59,6 +59,26 @@ h1 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: auto;
+}
+.social-icons > li {
+	display: inline-block;
+	margin-right: 2rem;
+	margin-top: 2px;
+}
+h3 {
+	font-weight: 100;
+	color: white;
+	font-size: 1rem;
+	margin: 3rem;
+	margin-bottom: 0;
+}
+.menu {
+	float: right;
+	margin-right: 5rem;
+	margin-bottom: 2rem;
+	margin-top: -2rem;
+	color: white;
+	font-weight: 100;
 }
 
 
