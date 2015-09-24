@@ -23,6 +23,12 @@ body {
 	margin-right: 2rem;
 	margin-top: 2px;
 }
+.dunes > h2 {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 25rem;
+}
 .dunes {
 	background-image: url(../images/nick.jpg);
 	background-size: cover;
@@ -54,31 +60,39 @@ h1 {
 	 margin: 0;
 	 padding: 0;
 }
+.dunes-2 {
+	background-image: url(../images/dunes.jpg);
+	background-size: cover;
+	height: 17rem;
+	background-repeat: no-repeat;
+	overflow: auto;
+	background-position: center bottom;
+}
 .footer-social {
-	background: #585858;
+	background: #fff;
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: auto;
 }
 .social-icons > li {
 	display: inline-block;
-	margin-right: 2rem;
-	margin-top: 2px;
+	margin-top: .5rem;
 }
 h3 {
 	font-weight: 100;
-	color: white;
+	color: #585858;
 	font-size: 1rem;
-	margin: 3rem;
+	margin-top: 2rem;
 	margin-bottom: 0;
+	padding-left: 2rem;
 }
 .menu {
 	float: right;
 	margin-right: 5rem;
 	margin-bottom: 2rem;
-	margin-top: -2rem;
-	color: white;
+	color: #585858;
 	font-weight: 100;
+	margin-top: -2rem;
 }
 
 
