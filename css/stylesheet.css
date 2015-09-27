@@ -6,22 +6,36 @@ body {
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
+	z-index: 9999;
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 .top-navigation > .content {
 	height: 2.5rem;
 	text-align: center;
 	border-bottom: 2px #585858;
 }
-.top-navigation .top-links {
+.top-navigation .top-links a {
 	float: none;
 	color: #585858;
 	font-size: 1rem;
+	text-decoration: none;
 }
-.top-links li {
+.top-navigation .top-links li {
 	display: inline-block;
 	font-weight: 300;
 	margin-right: 2rem;
 	margin-top: 2px;
+	text-decoration: none;
+}
+.top-navigation .top-links li.active {
+    color: ##585862;
+    font-weight: 500;
+}
+.top-navigation .top-links li a:hover {
+    cursor: pointer;
+    color: #CC9933;
 }
 .dunes > h2 {
 	color: white;
@@ -30,11 +44,14 @@ body {
 }
 .dunes {
 	background-image: url(../images/nick.jpg);
-	background-size: 100% 100%;
 	height: 50rem;
 	background-repeat: no-repeat;
 	overflow: auto;
-	background-position: center bottom;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .quotes ul {
 	list-style: none;
@@ -59,6 +76,9 @@ h1 {
 	 border-top: none;
 	 margin: 0;
 	 padding: 0;
+	-webkit-box-shadow: inset 0px 10px 168px -63px rgba(148,136,56,0.77);
+	-moz-box-shadow: inset 0px 10px 168px -63px rgba(148,136,56,0.77);
+	box-shadow: inset 0px 10px 168px -63px rgba(148,136,56,0.77);
 }
 .dunes-2 {
 	background-image: url(../images/dunes.jpg);
