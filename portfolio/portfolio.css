@@ -11,6 +11,7 @@ body {
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	margin-top: -1rem;
 }
 .top-navigation > .content {
 	height: 2.5rem;
