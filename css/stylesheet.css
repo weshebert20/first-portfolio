@@ -43,7 +43,7 @@ body {
 	font-weight: 100;
 }
 .dunes {
-	background-image: url(../images/nick.jpg);
+	background-image: url('../images/nick.jpg');
 	height: 50rem;
 	background-repeat: no-repeat;
 	overflow: auto;
